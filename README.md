@@ -30,6 +30,15 @@
       margin-top: 10px;
       font-size: 1.3em;
       text-shadow: 0 1px 5px rgba(0,0,0,0.6);
+      background: linear-gradient(90deg, #4fc3f7, #00e5ff, #4fc3f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 300% 300%;
+      animation: gradientMove 6s infinite alternate;
+    }
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
     }
     section {
       max-width: 1000px;
@@ -75,7 +84,7 @@
 <body>
   <header>
     <h1>联信资（香港）资产管理有限公司</h1>
-    <p>连接全球资本 · 驱动数字未来</p>
+    <p>因信而聚 · 因资而赢 · 信聚众资 · 智赢未来</p>
   </header>
 
   <section>
