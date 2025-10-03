@@ -30,6 +30,15 @@
       margin-top: 10px;
       font-size: 1.3em;
       text-shadow: 0 1px 5px rgba(0,0,0,0.6);
+      background: linear-gradient(90deg, #4fc3f7, #00e5ff, #4fc3f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 300% 300%;
+      animation: gradientMove 6s infinite alternate;
+    }
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
     }
     section {
       max-width: 1000px;
